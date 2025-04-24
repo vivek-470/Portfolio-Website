@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
@@ -20,7 +20,7 @@ const App = () => {
         <Skills />
         <Portfolio />
         <Experience />
-        {/* <Contact /> */}
+        <Contact />
       </motion.div>
       <Navbar />
     </div>
