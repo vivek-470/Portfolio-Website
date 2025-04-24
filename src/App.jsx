@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 // import Portfolio from "./components/Portfolio";
 // import Contact from "./components/Contact";
 import Home from "./components/Home";
-// import Skills from "./components/Skills";
+import Skills from "./components/Skills";
 // import Experience from "./components/Experience";
 import { motion } from "framer-motion";
 
@@ -17,8 +17,8 @@ const App = () => {
         transition={{ duration: 1 }}
       >
         <Home />
-        {/* <Skills />
-        <Portfolio />
+        <Skills />
+        {/* <Portfolio />
         <Experience />
         <Contact /> */}
       </motion.div>
