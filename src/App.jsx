@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-// import Portfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio";
 // import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
@@ -18,8 +18,8 @@ const App = () => {
       >
         <Home />
         <Skills />
-        {/* <Portfolio />
-        <Experience />
+        <Portfolio />
+        {/* <Experience />
         <Contact /> */}
       </motion.div>
       <Navbar />
