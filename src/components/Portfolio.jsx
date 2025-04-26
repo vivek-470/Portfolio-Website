@@ -9,8 +9,8 @@ const Portfolio = () => {
       <h1 className='text-black font-bold text-2xl md:w-[700px] max-w-xl flex justify-center items-center'>Portfolio</h1>
       {/* project 1 */}
       <div className='flex justify-center md:items-center md:gap-10  flex-col items-center md:flex-row max-w-[480px] md:max-w-full '>
-      <div className=' mt-[-80px] h-[450px]'>
-        <img className="md:h-[550px] h-[450px] md:w-[500px] w-[450px] object-contain rounded-sm  " src={spotify} alt="" />
+      <div className=' mt-[-80px] h-[450px] w-[350px] md:w-[500px]'>
+        <img className="md:h-[550px] h-[450px] md:w-[500px] w-[350px] object-contain rounded-sm  " src={spotify} alt="" />
 
       </div>
       <div className=' mt-7 h-[300px] flex justify-center  flex-col gap-7 '>
@@ -35,8 +35,8 @@ const Portfolio = () => {
        </div>
 
       </div>
-      <div className=' mt-[-80px] h-[450px] '>
-        <img className="md:h-[550px] h-[450px] md:w-[500px] w-[450px] object-contain rounded-sm " src={spotify} alt="" />
+      <div className=' mt-[-80px] h-[450px] w-[350px] md:w-[500px] '>
+        <img className="md:h-[550px] h-[450px] md:w-[500px] w-[350px] object-contain rounded-sm " src={spotify} alt="" />
 
       </div>
       </div>

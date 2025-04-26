@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { RxHamburgerMenu, RxCross1 } from "react-icons/rx";
 import { Link } from "react-scroll";
 
+
 const Navbar = () => {
   const [icon, setIcon] = useState(false);
 

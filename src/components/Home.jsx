@@ -45,7 +45,7 @@ const Home = () => {
       </div>
       <div className=" w-full md:w-[50%] mt-10 md:mt-0 flex justify-center z-0 "  >
         <img
-          className="w-full max-w-[400px] h-auto object-contain "
+          className="w-full max-w-[350px] h-auto object-contain "
           src={resume}
           alt=""
         />

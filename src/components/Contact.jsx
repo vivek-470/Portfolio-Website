@@ -57,7 +57,7 @@ function Contact() {
         </div>
 
         {/* Right */}
-        <div className="w-[400px] flex flex-col gap-2">
+        <div className="w-[350px] md:w-[400px] flex flex-col gap-2">
           <h1 className="text-xl font-bold">Let's connect!</h1>
 
           <input
