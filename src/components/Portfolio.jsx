@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const Portfolio = () => {
   return (
     <section  id='portfolio' >
-      <div className='mt-6'  id='portfolio'>
+      <div className='mt-6 py-[100px] md:py-3'  id='portfolio'>
       <h1 className='text-black font-bold text-2xl md:w-[700px] max-w-xl flex justify-center items-center'>Portfolio</h1>
       {/* project 1 */}
       <div className='flex justify-center md:items-center md:gap-10  flex-col items-center md:flex-row max-w-[480px] md:max-w-full '>
@@ -13,7 +13,7 @@ const Portfolio = () => {
         <img className="md:h-[550px] h-[450px] md:w-[500px] w-[350px] object-contain rounded-sm  " src={spotify} alt="" />
 
       </div>
-      <div className=' mt-7 h-[300px] flex justify-center  flex-col gap-7 '>
+      <div className=' mt-[-100px] md:mt-7 h-[300px] flex justify-center  flex-col gap-7 px-2'>
        <h1 className='font-semibold text-2xl'>Project #1</h1>
        <h1 className='font-semibold text-2xl'>Spotify clone using React and tailwind css</h1>
        <div className='flex gap-5 '>
@@ -26,7 +26,7 @@ const Portfolio = () => {
       {/* project 2 */}
       <div className='flex justify-center md:items-center md:gap-10  flex-col items-center md:flex-row max-w-[480px] md:max-w-full '>
      
-      <div className=' mt-7 h-[300px] flex justify-center  flex-col gap-7 '>
+      <div className=' mt-7 h-[300px] flex justify-center  flex-col gap-7 px-2'>
        <h1 className='font-semibold text-2xl'>Project #2</h1>
        <h1 className='font-semibold text-2xl'>Shopping website using  React and tailwind css</h1>
        <div className='flex gap-5 '>

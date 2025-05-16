@@ -21,7 +21,7 @@ const Navbar = () => {
        <div className="bg-white fixed top-0  shadow  w-full h-[80px] text-black flex justify-between items-center px-4 md:px-36 md:flex  border-2 border-black backdrop-blur-md z-50 drop-shadow-xl">
       {/* Logo / Name */}
       <div className="flex text-[20px]">
-        <h1 className="hidden md:flex">Vivek Sharma</h1>
+        <h1 >Vivek Sharma</h1>
       </div>
 
       {/* Desktop Nav */}
