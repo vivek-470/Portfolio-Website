@@ -30,7 +30,7 @@ const Portfolio = () => {
        <h1 className='font-semibold text-2xl'>Project #2</h1>
        <h1 className='font-semibold text-2xl'>Shopping website using  React and tailwind css</h1>
        <div className='flex gap-5 '>
-        <a href='https://shopcart-clone-umy2.vercel.app/'><button className='h-[50px] w-[120px] bg-purple-500 rounded-2xl text-white font-semibold cursor-pointer hover:bg-purple-600'>View Site</button></a>
+        <a href='https://shopcart-clone-vivek.vercel.app/'><button className='h-[50px] w-[120px] bg-purple-500 rounded-2xl text-white font-semibold cursor-pointer hover:bg-purple-600'>View Site</button></a>
         <a href="https://github.com/vivek-470/Shopcart-clone.git"><button className='h-[50px] w-[50px] bg-purple-500 rounded-2xl text-white font-semibold flex justify-center items-center cursor-pointer hover:bg-purple-600'><FaGithub className='text-2xl '/></button></a>
        </div>
 
